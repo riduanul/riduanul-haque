@@ -13,7 +13,7 @@ const AboutMe = () => {
     return (
         
         <div id="About" className='container mt-5 pt-5 mb-0 pb-0'>
-            <div data-aos="flip-left" className="row "> 
+            <div data-aos="zoom-in-down" className="row "> 
             <div className="col-md-6 pt-5 ">
                 <br/>
                 <h1 style={{color:'#28a745'}}>About Me</h1>

@@ -27,7 +27,7 @@ const Contact = () => {
   }
   return (
     <div
-      data-aos="flip-left"
+      data-aos="zoom-in-down"
       id="Contact"
       className="contact container mt-5 pt-5 pb-3"
     >
