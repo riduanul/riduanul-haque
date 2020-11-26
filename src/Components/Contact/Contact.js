@@ -35,7 +35,7 @@ const Contact = () => {
         <div className="row d-flex justify-content-center align-items-center">
           <div className="col-md-6 text-white">
             <h2 className="text-success">Contact With Me</h2> <br /> <br />
-            <h4> Rangamati, Chattogram, Bangladesh </h4>
+            <h4> Rangamati, Chattogram, Bangladesh. </h4>
             <h4> Cell: +8801794212131</h4>
             <h4>Email: riduanul.haque1@gmail.com</h4>
             <div className="row d-flex justify-content-start align-items-center mr-5 ml-0 ">

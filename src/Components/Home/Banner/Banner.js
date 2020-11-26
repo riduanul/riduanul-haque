@@ -2,7 +2,7 @@ import React from 'react';
 import Particles from 'react-particles-js';
 import Typewriter from 'typewriter-effect';
 import './Banner.css';
-import resume from '../../../Images/Riduanul .pdf';
+import resume from '../../../Images/Resume of Md Riduanul Haque.pdf';
 
 
 const Banner = () => {
