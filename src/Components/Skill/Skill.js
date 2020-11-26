@@ -8,9 +8,9 @@ const Skill = () => {
         <div id="Skills" className='container'>
             <h1 style={{color:'#28a745', fontWeight:'700'}}>My Skills</h1> <br/> <br/>
            <div className="row d-flex">
-            <div className="col-md-6">
+                <div  className="col-md-6">
                
-                   <div data-aos="flip-right" class='backStyle aos-int aos-animate'>
+                   <div  class='backStyle aos-int aos-animate'>
                         <div className='div-one'>
                             <h5 style={{color: 'white', backgroundColor: 'transparent'}}>JavaScript</h5> <br/>
                             <div className='progressBar'>
@@ -22,7 +22,7 @@ const Skill = () => {
                             </div>
                         </div>
                    </div>
-                   <div data-aos="flip-right" class='backStyle aos-int aos-animate'>
+                   <div  class='backStyle aos-int aos-animate'>
                         <div className='div-one'>
                             <h5 style={{color: 'white',backgroundColor: 'transparent'}}>React</h5> <br/>
                             <div className='progressBar'>
@@ -34,7 +34,7 @@ const Skill = () => {
                             </div>
                         </div>
                    </div>
-                   <div data-aos="flip-right" class='backStyle aos-int aos-animate'>
+                   <div  class='backStyle aos-int aos-animate'>
                         <div className='div-one'>
                             <h5 style={{color: 'white',backgroundColor: 'transparent'}}>Material UI</h5> <br/>
                             <div className='progressBar'>
@@ -46,7 +46,7 @@ const Skill = () => {
                             </div>
                         </div>
                    </div>
-                   <div data-aos="flip-right" class='backStyle aos-int aos-animate'>
+                   <div  class='backStyle aos-int aos-animate'>
                         <div className='div-one'>
                             <h5 style={{color: 'white',backgroundColor: 'transparent'}}>Bootstrap</h5> <br/>
                             <div className='progressBar'>
@@ -58,7 +58,7 @@ const Skill = () => {
                             </div>
                         </div>
                    </div>
-                   <div data-aos="flip-right" class='backStyle aos-int aos-animate'>
+                   <div  class='backStyle aos-int aos-animate'>
                         <div className='div-one'>
                             <h5 style={{color: 'white',backgroundColor: 'transparent'}}>HTML</h5> <br/>
                             <div className='progressBar'>
@@ -71,10 +71,10 @@ const Skill = () => {
                         </div>
                    </div>
                    
-            </div> 
-            <div className="col-md-6">
+                </div> 
+                 <div  className="col-md-6">
                
-                   <div data-aos="flip-right" class='backStyle aos-int aos-animate'>
+                   <div  class='backStyle aos-int aos-animate'>
                         <div className='div-one'>
                             <h5 style={{color: 'white',backgroundColor: 'transparent'}}>Node.js</h5> <br/>
                             <div className='progressBar'>
@@ -86,7 +86,7 @@ const Skill = () => {
                             </div>
                         </div>
                    </div>
-                   <div data-aos="flip-right" class='backStyle aos-int aos-animate'>
+                   <div  class='backStyle aos-int aos-animate'>
                         <div className='div-one'>
                             <h5 style={{color: 'white',backgroundColor: 'transparent'}}>Express.Js</h5> <br/>
                             <div className='progressBar'>
@@ -98,7 +98,7 @@ const Skill = () => {
                             </div>
                         </div>
                    </div>
-                   <div data-aos="flip-right" class='backStyle aos-int aos-animate'>
+                   <div  class='backStyle aos-int aos-animate'>
                         <div className='div-one'>
                             <h5 style={{color: 'white',backgroundColor: 'transparent'}}>MongoDB</h5> <br/>
                             <div className='progressBar'>
@@ -110,7 +110,7 @@ const Skill = () => {
                             </div>
                         </div>
                    </div>
-                   <div data-aos="flip-right" class='backStyle aos-int aos-animate'>
+                   <div  class='backStyle aos-int aos-animate'>
                         <div className='div-one'>
                             <h5 style={{color: 'white',backgroundColor: 'transparent'}}>Firebase</h5> <br/>
                             <div className='progressBar'>
@@ -122,7 +122,7 @@ const Skill = () => {
                             </div>
                         </div>
                    </div>
-                   <div data-aos="flip-right" class='backStyle aos-int aos-animate'>
+                   <div  class='backStyle aos-int aos-animate'>
                         <div className='div-one'>
                             <h5 style={{color: 'white',backgroundColor: 'transparent'}}>CSS</h5> <br/>
                             <div className='progressBar'>

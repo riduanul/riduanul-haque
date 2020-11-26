@@ -13,7 +13,7 @@ const Projects = () => {
         duration : 3000
       })
   return (
-    <div id='Projects'  data-aos="flip-left" className="container mb-5 pb-5 mt-5 pt-5">
+    <div id='Projects'  data-aos="fade-up" className="container mb-5 pb-5 mt-5 pt-5">
       <h1 style={{ color: "green", }}>My Projects</h1> <br /> <br />
       <div className="row d-flex justify-content-between">
         <div className="col-lg-3 cl-md-6 cl-sm-12 project-div">
