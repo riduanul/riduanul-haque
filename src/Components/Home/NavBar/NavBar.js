@@ -2,7 +2,7 @@ import React from "react";
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import './Navbar.css';
-import resume from '../../../Images/Riduanul .pdf';
+import resume from '../../../Images/Resume of Md Riduanul Haque.pdf';
 
 const NavBar = () => {
   return (
