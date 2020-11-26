@@ -1,0 +1,13 @@
+.box{
+    padding: 5px;
+    border: 1px solid gray;
+    box-shadow: 1px 3px 3px gray;
+    margin: 15px;
+   
+    
+}
+a{
+    text-decoration:none;
+    color:white;
+    
+}

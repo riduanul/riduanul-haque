@@ -1,0 +1,19 @@
+.progressBar{
+    position: relative;
+    width: 80%;
+    height: 25px;
+    border: 1px solid green;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    }
+.div-one{
+    max-width: 500px;
+    margin: 15px auto;
+    background-color: rgba(153, 136, 136, 0.185);
+    padding: 15px;
+    border-radius: 15px;
+    
+}

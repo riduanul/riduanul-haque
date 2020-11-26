@@ -1,3 +1,9 @@
+*{
+  background-color: rgb(33, 37, 41);
+  width: 100%;
+  
+font-family: 'Philosopher', sans-serif;
+}
 .App {
   text-align: center;
 }
