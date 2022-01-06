@@ -3,7 +3,7 @@ import "./Projects.css";
 import creative from "../../Images/creative.JPG";
 import travel from "../../Images/travelguru.JPG";
 import volunteer from "../../Images/volunteer.JPG";
-import athena from "../../Images/athena.JPG";
+import athena from "../../Images/athena.jpg";
 import { BiLinkExternal } from "react-icons/bi";
 import { FaGithub, FaGithubSquare } from "react-icons/fa";
 import AOS from "aos";
@@ -76,6 +76,49 @@ const Projects = () => {
         {/* 2nd column ----------------------------*/}
         <div className="col-lg-3 cl-md-6 cl-sm-12 project-div">
           <div className="project-img ">
+            <img src={athena} alt="creative agency img" />
+          </div>
+          <div>
+            {" "}
+            <h5 style={{ color: "green" }} className="mt-2">
+              Athena Design
+            </h5>
+          </div>
+          <h6 style={{ color: "gray" }}>
+            A Simple Landing page. single page React application.
+          </h6>
+          <div className="" style={{ color: "gray", fontWeight: "bold" }}>
+            Technologies: Html, Css, JavaScript, React, Bootstrap.
+          </div>
+          <>
+            <div className="row d-flex justify-content-center m-auto p-2">
+              <div className="col-4 text-muted ">
+                <h4>
+                  <a
+                    href="https://github.com/riduanul/athena-design "
+                    target="_blank"
+                  >
+                    {" "}
+                    <FaGithub />
+                  </a>
+                </h4>
+              </div>
+              <div className="col-4 text-muted ">
+                <h4>
+                  <a
+                    href="https://athena-design-46b83.web.app/"
+                    target="_blank"
+                  >
+                    <BiLinkExternal />{" "}
+                  </a>
+                </h4>
+              </div>
+            </div>
+          </>
+        </div>
+        {/* 3rd column.................. */}
+        <div className="col-lg-3 cl-md-6 cl-sm-12 project-div">
+          <div className="project-img ">
             <img src={volunteer} alt="creative agency img" />
           </div>
           <div>
@@ -128,50 +171,6 @@ const Projects = () => {
           </>
         </div>
 
-        {/* 3rd column.................. */}
-
-        <div className="col-lg-3 cl-md-6 cl-sm-12 project-div">
-          <div className="project-img ">
-            <img src={athena} alt="creative agency img" />
-          </div>
-          <div>
-            {" "}
-            <h5 style={{ color: "green" }} className="mt-2">
-              Athena Design
-            </h5>
-          </div>
-          <h6 style={{ color: "gray" }}>
-            A Simple Landing page. single page React application.
-          </h6>
-          <div className="" style={{ color: "gray", fontWeight: "bold" }}>
-            Technologies: JavaScript, React, Bootstrap.
-          </div>
-          <>
-            <div className="row d-flex justify-content-center m-auto p-2">
-              <div className="col-4 text-muted ">
-                <h4>
-                  <a
-                    href="https://github.com/riduanul/athena-design "
-                    target="_blank"
-                  >
-                    {" "}
-                    <FaGithub />
-                  </a>
-                </h4>
-              </div>
-              <div className="col-4 text-muted ">
-                <h4>
-                  <a
-                    href="https://athena-design-46b83.web.app/"
-                    target="_blank"
-                  >
-                    <BiLinkExternal />{" "}
-                  </a>
-                </h4>
-              </div>
-            </div>
-          </>
-        </div>
         {/* 4th column--------------------------- */}
 
         <div className="col-lg-3 cl-md-6 cl-sm-12 project-div">
