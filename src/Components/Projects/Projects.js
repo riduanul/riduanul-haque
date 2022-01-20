@@ -5,6 +5,7 @@ import travel from "../../Images/travelguru.JPG";
 import volunteer from "../../Images/volunteer.JPG";
 import athena from "../../Images/athena.jpg";
 import power from "../../Images/power.png";
+import apartmentRent from "../../Images/ApartmentRent.jpg";
 import { BiLinkExternal } from "react-icons/bi";
 import { FaGithub, FaGithubSquare } from "react-icons/fa";
 import AOS from "aos";
@@ -24,7 +25,7 @@ const Projects = () => {
       <div className="row d-flex justify-content-between">
         <div className="col-lg-3 cl-md-6 cl-sm-12 project-div">
           <div className="project-img ">
-            <img src={power} alt="creative agency img" />
+            <img src={power} alt="creative agency img" height="145" />
           </div>
           <div>
             <h5 style={{ color: "green" }} className="mt-2">
@@ -32,7 +33,7 @@ const Projects = () => {
             </h5>
           </div>
           <h6 style={{ color: "gray" }}>
-            ,A front-end-application for gym member registration.
+            A front-end-application for gym member registration.
           </h6>
           <div className="" style={{ color: "gray", fontWeight: "bold" }}>
             Technologies: JavaScript, React, React-router, HTML,Bootstrap, CSS,
@@ -157,6 +158,60 @@ const Projects = () => {
           </>
         </div>
         {/* 3rd column.................. */}
+        <div className="col-lg-3 cl-md-6 cl-sm-12 project-div">
+          <div className="project-img ">
+            <img src={apartmentRent} alt="ApartmentRent img" />
+          </div>
+          <div>
+            {" "}
+            <h5 style={{ color: "green" }} className="mt-2">
+              Apartment Rent
+            </h5>
+          </div>
+          <h6 style={{ color: "gray" }}>
+            An Apartment Rental web application with firebase authentication,
+            admin panel, CRUD Operation.
+          </h6>
+          <div className="" style={{ color: "gray", fontWeight: "bold" }}>
+            Technologies: JavaScript, React, react-router, Node.js, MongoDB
+          </div>
+          <>
+            <div className="row d-flex justify-content-center m-auto p-2">
+              <div className="col-4 text-muted ">
+                <h4>
+                  <a
+                    href="https://github.com/riduanul/Apartment-rent "
+                    target="_blank"
+                  >
+                    {" "}
+                    <FaGithub />
+                  </a>
+                </h4>
+              </div>
+              <div className="col-4 text-muted ">
+                <h4>
+                  <a
+                    href="https://apartment-hunt-eb60a.firebaseapp.com/"
+                    target="_blank"
+                  >
+                    <BiLinkExternal />{" "}
+                  </a>
+                </h4>
+              </div>
+              <div className="col-4 text-muted ">
+                <h4>
+                  <a
+                    href="https://github.com/riduanul/apartment-hunt-server"
+                    target="_blank"
+                  >
+                    <FaGithubSquare />
+                  </a>
+                </h4>
+              </div>
+            </div>
+          </>
+        </div>
+        {/* 4th */}
         <div className="col-lg-3 cl-md-6 cl-sm-12 project-div">
           <div className="project-img ">
             <img src={volunteer} alt="creative agency img" />

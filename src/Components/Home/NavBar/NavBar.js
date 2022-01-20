@@ -24,23 +24,23 @@ const NavBar = () => {
             <div className="text">
               <Nav>
                 <Nav.Link href="#Home" style={{ color: "white" }}>
-                  Home
+                  <a className="navItem">Home</a>
                 </Nav.Link>
                 <Nav.Link href="#About" style={{ color: "white" }}>
-                  About
+                  <a className="navItem">About</a>
                 </Nav.Link>
                 <Nav.Link href="#Projects" style={{ color: "white" }}>
                   {" "}
-                  Projects{" "}
+                  <a className="navItem"> Projects </a>
                 </Nav.Link>
                 <Nav.Link href="#Blogs" style={{ color: "white" }}>
-                  Blogs
+                  <a className="navItem">Blogs</a>
                 </Nav.Link>
                 <Nav.Link href="#Skills" style={{ color: "white" }}>
-                  Skills
+                  <a className="navItem">Skills</a>
                 </Nav.Link>
                 <Nav.Link href="#Contact" style={{ color: "white" }}>
-                  Contact
+                  <a className="navItem">Contact</a>
                 </Nav.Link>
                 <a href={resume} download="riduanul haque">
                   <button className="btn btn-outline-success">Resume</button>

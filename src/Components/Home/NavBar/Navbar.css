@@ -1,3 +1,8 @@
 .text {
   color: white;
 }
+.navItem:hover {
+  box-shadow: 2px 1px 2px 1px green;
+  padding: 10px;
+  border-radius: 5px;
+}
