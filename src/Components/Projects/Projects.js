@@ -4,6 +4,7 @@ import creative from "../../Images/creative.JPG";
 import travel from "../../Images/travelguru.JPG";
 import volunteer from "../../Images/volunteer.JPG";
 import athena from "../../Images/athena.jpg";
+import power from "../../Images/power.png";
 import { BiLinkExternal } from "react-icons/bi";
 import { FaGithub, FaGithubSquare } from "react-icons/fa";
 import AOS from "aos";
@@ -21,6 +22,45 @@ const Projects = () => {
     >
       <h1 style={{ color: "green" }}>My Projects</h1> <br /> <br />
       <div className="row d-flex justify-content-between">
+        <div className="col-lg-3 cl-md-6 cl-sm-12 project-div">
+          <div className="project-img ">
+            <img src={power} alt="creative agency img" />
+          </div>
+          <div>
+            <h5 style={{ color: "green" }} className="mt-2">
+              Power-X-Gym
+            </h5>
+          </div>
+          <h6 style={{ color: "gray" }}>
+            ,A front-end-application for gym member registration.
+          </h6>
+          <div className="" style={{ color: "gray", fontWeight: "bold" }}>
+            Technologies: JavaScript, React, React-router, HTML,Bootstrap, CSS,
+            Firbase Authenticatoin.
+          </div>
+          <>
+            <div className="row d-flex justify-content-center m-auto p-2">
+              <div className="col-4 text-muted ">
+                <h4>
+                  <a
+                    href="https://github.com/riduanul/power-x-gymhttps://github.com/riduanul/creative-agency-client"
+                    target="_blank"
+                  >
+                    <FaGithub />
+                  </a>
+                </h4>
+              </div>
+              <div className="col-4 text-muted ">
+                <h4>
+                  <a href="https://power-x-gym-dc8b2.web.app" target="_blank">
+                    <BiLinkExternal />
+                  </a>
+                </h4>
+              </div>
+            </div>
+          </>
+        </div>
+        {/* 1st */}
         <div className="col-lg-3 cl-md-6 cl-sm-12 project-div">
           <div className="project-img ">
             <img src={creative} alt="creative agency img" />
