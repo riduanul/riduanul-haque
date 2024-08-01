@@ -11,7 +11,7 @@
     "@testing-library/react": "^11.2.2",
     "@testing-library/user-event": "^12.2.2",
     "aos": "^3.0.0-beta.6",
-    "bootstrap": "^4.5.3",
+    "bootstrap": "^5.0.0",
     "emailjs": "^3.3.0",
     "emailjs-com": "^2.6.4",
     "react": "^17.0.1",
